@@ -9,7 +9,6 @@ use Test::PerlTidy;
 
 my @wanted_files = sort qw(
   Makefile.PL
-  lib/Test/PerlTidy.pm
   t/critic.t
   t/exclude_files.t
   t/exclude_perltidy.t
@@ -21,6 +20,10 @@ my @wanted_files = sort qw(
   t/strict.t
 );
 
-my @found_files = Test::PerlTidy::list_files('.');
+my @found_files = Test::PerlTidy::list_files(
+    path    => '.',
+    exclude => [ 'blib/', 'lib/' ],
+    debug   => 0,
+);
 
 is_deeply( \@wanted_files, \@found_files );

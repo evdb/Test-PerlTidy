@@ -1,5 +1,16 @@
 CHANGES
 
+20110320 -  Resolve several open bugs and feature requests:
+
+ 1) Allow specifying top-level path to start search for files to test
+    (instead of always using ".").
+
+ 2) Allow specifying a perltidyrc file to test against.
+
+ 3) Allow specifying files or directories to exclude from testing.
+
+ 4) Fix so distribution passes its own tidyness tests.
+
 20080429 -  A file is tidy wrt a version of Perl::Tidy
             (even Test::PerlTidy fell prey to this subtle issue)
 
