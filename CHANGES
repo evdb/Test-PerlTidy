@@ -1,0 +1,10 @@
+CHANGES
+
+20080429 -  A file is tidy wrt a version of Perl::Tidy
+            (even Test::PerlTidy fell prey to this subtle issue)
+
+20070903 -  Added File::Finder as a prereq
+            Changed the META.yml file to be valid YAML
+            Added a CHANGES file
+
+20070911 -  Changed to Makefile.PL to try to make build more reliable
