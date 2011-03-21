@@ -22,7 +22,7 @@ my @wanted_files = sort qw(
 
 my @found_files = Test::PerlTidy::list_files(
     path    => '.',
-    exclude => [ 'blib/', 'lib/' ],
+    exclude => [ 'blib', 'lib' ],
     debug   => 0,
 );
 
