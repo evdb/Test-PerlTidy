@@ -12,6 +12,7 @@ WriteMakefile(
         'File::Finder'  => '0',
         'File::Slurp'   => '0',
         'File::Spec'    => '0',
+        'parent'        => '0',
         'Perl::Tidy'    => '20031021',
         'Test::Builder' => '0',
         'Test::More'    => '0',
