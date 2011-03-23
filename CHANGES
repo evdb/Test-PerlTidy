@@ -1,5 +1,7 @@
 CHANGES
 
+20110323 - Add dependency on "parent" for CPANTESTERS
+
 20110320 -  Resolve several open bugs and feature requests:
 
  1) Allow specifying top-level path to start search for files to test
