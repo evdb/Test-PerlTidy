@@ -16,7 +16,7 @@ use Test::Builder;
 use Text::Diff;
 
 our $VERSION;
-$VERSION = '20110320';
+$VERSION = '20110323';
 
 my $test = Test::Builder->new;
 
@@ -337,7 +337,7 @@ L<http://ecclestoad.co.uk/>
 
 =head1 COPYRIGHT
 
-Copyright 2011 Larry Leszczynski, all rights reserved.
+Copyright 2007 Edmund von der Burg, all rights reserved.
 
 =head1 LICENSE
 
